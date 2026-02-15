@@ -19,9 +19,38 @@
     <link rel="stylesheet" href="assets/css/test.css">
     <title>Welcome Page</title>
 </head>
+<body>
+    <h1> 
+        <span>UniKL JUP</span>
+    </h1>
+        <nav class= "navbar">
+          <ul class = "navmenu-item">  
+              <li><a href = "academics.php" >Academics</a>
+                <ul class="dropdown">
+                  <li><a href="#">Electrical</a></li>
+                  <li><a href="#">Mechanical</a></li>
+                </ul>
+              </li>
+              <li ><a href="about.php">Target Counters</a></li>
+              <li ><a href="contacts.php" >Contacts</a></li>
+              <li ><a href="welcome.php" >Welcome</a></li>
+              <li id = "test"><a href="test.php" >Test Page</a></li>
+          </ul>
+        </nav>
+    <main>
+        <div class="wrapper">
+            <div id ="div1"><img src="assets/img/photo1.avif" alt="image 1" class="gallery_img"></div>
+            <div id ="div2"><img src="assets/img/photo2.avif" alt="image 2" class="gallery_img"></div>
+            <div id ="div3"><img src="assets/img/photo3.avif" alt="image 3" class="gallery_img"></div>
+            <div id ="div4"><img src="assets/img/photo4.avif" alt="image 4" class="gallery_img"></div>
+            <div id ="div5"><img src="assets/img/photo5.avif" alt="image 5" class="gallery_img"></div>
+            <div id ="div6"><img src="assets/img/photo6.avif" alt="image 6" class="gallery_img"></div>
+        </div>
 
-<div class="container">
-    <div id ="div1">Div 1</div>
-    <div id ="div2">Div 2</div>
-    <div id ="div3">Div 3</div>
-</div>
+    </main>
+    <footer>
+
+    </footer>
+
+</body>
+
