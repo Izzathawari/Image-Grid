@@ -1,0 +1,20 @@
+.container{
+    background-color: aqua;
+}
+
+.container #div1{
+    background-color: rgb(242, 205, 158);
+}
+
+.container #div2{
+    background-color: rgb(235, 235, 118);
+}
+
+.container #div3{
+    background-color: rgb(139, 235, 118);
+}
+
+.container {
+    
+    display: flex;
+}

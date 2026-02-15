@@ -1,0 +1,146 @@
+
+*{
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+
+}
+
+body{
+    margin: 0px;
+}
+
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.pageheader{
+        margin: 10px 0px;
+}
+
+/* --- Dropdown Menu --- */
+
+.navbar{
+ background-color: hsl(0, 2%, 28%);
+ width: 100%;
+}
+
+.navbar ul{
+    
+    max-width: 1000px;
+    list-style-type: none;
+    padding: 0 ;
+    margin: 0 auto;
+    /*overflow: hidden;  THis causes a dropdown menu not working*/
+
+}
+
+/* Add this to fix the collapsed navbar */
+.navbar ul::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.navbar a {
+
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar li {
+    float: left;        /* Makes them sit side-by-side */
+    position: relative; /* IMPORTANT: This acts as the "Anchor" for the dropdown */
+}
+
+.navbar .navmenu-item #test {
+    float:right;
+}
+
+.navbar  .navmenu-item a:hover {
+    background-color:hsl(0, 0%, 10%) ;
+}
+
+/* --- Dropdown Menu --- */
+
+ul li ul.dropdown {
+    width: 100px;
+    display: none;
+    z-index: 999;
+    position: absolute;
+    background: #484849;
+}
+
+/* --- Dropdown Item --- */
+
+ul li ul.dropdown li {
+    display: block;
+    float: none;
+    width: 100%;
+}
+
+ul li ul.dropdown a {
+    text-align: left;
+    padding-left: 5px;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+
+
+/*--------main content*/
+
+
+aside{
+    width: 20%;
+    float: left;
+    padding-right: 5px;
+}
+section{
+    width: 40%;
+    float: left;
+    padding: 0px 5px;
+}
+
+article{
+    width: 40%;
+    float: left;
+    padding: 0px 5px;
+
+}
+/*--------footer--------*/
+
+
+footer{ 
+    margin: 20px;
+    clear: both;
+    background-color: hsl(0, 0%, 44%);
+    color: #ffffff; /* ensure text is readable */
+    text-align: center;
+    padding: 10px 0; /* give vertical space so text sits in the middle */
+    width: 100%;
+    box-sizing: border-box;
+    height: 10vh;
+}
+
+footer .description {
+    display: inline-block;
+}
+
+@media screen  and (max-width:600px){
+    
+    aside, section, article{
+        width: 100%;
+    }
+}
+
+
+
