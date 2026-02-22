@@ -107,6 +107,7 @@ ul li:hover ul.dropdown {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    margin-top: 5px;
 }
 
 .wrapper .gallery_img {
@@ -142,4 +143,29 @@ ul li:hover ul.dropdown {
 
 .wrapper #div6 {
     background-color: rgb(255, 0, 119);
+}
+
+/*-------FOOTER--------*/
+
+footer{ 
+    margin: 20px;
+    clear: both;
+    background-color: hsl(0, 0%, 44%);
+    color: #ffffff; /* ensure text is readable */
+    text-align: center;
+    padding: 10px 0; /* give vertical space so text sits in the middle */
+    width: 100%;
+    box-sizing: border-box;
+    height: 10vh;
+}
+
+footer .description {
+    display: inline-block;
+}
+
+@media screen  and (max-width:600px){
+    
+    aside, section, article{
+        width: 100%;
+    }
 }

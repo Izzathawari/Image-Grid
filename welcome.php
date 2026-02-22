@@ -70,11 +70,11 @@
           </article>
         </main>
         <footer>
-        <div class= "description">&copy; Copyrigt Reserved<br>
-          SharkFisher
-        </div>
+          <div class= "description">&copy; Copyrigt Reserved<br>
+            SharkFisher
+          </div>
           
-    </footer>
+        </footer>
       
     </body>
     </html>
